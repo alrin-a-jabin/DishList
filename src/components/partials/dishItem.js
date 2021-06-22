@@ -22,8 +22,8 @@ const DishItem = (props) => {
                         <div className="mb-3"> {element.dishDescription}
                         </div>
 
-                        <div className="count_button mb-3">
-                          <i onClick={() => props.deleteCount(index)} class="bi bi-dash-lg"></i>  {element.count} <i onClick={() => props.addCount(index)} class="bi bi-plus"></i>
+                        <div className="count_button mb-3 c_white">
+                          <i onClick={() => props.deleteCount(index)} class="bi bi-dash-lg count_minus"></i>  {element.count} <i onClick={() => props.addCount(index)} class="bi bi-plus count_plus"></i>
                         </div>
                         {element.addonCat?.length > 0 ? <div className="customization_color">Customization available</div> : ""}
                       </div>

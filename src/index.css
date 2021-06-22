@@ -390,9 +390,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #3f51b5;
 }
 .count_button{
-  background-color: greenyellow;
-  width: 71px;
-  border-radius: 10px;
+  background-color:#00c74c;
+  width: 115px;;
+  border-radius: 20px;
+  height: 35px;
+  text-align-last: justify;
 }
 .count_bg{
   background-color: red;
@@ -400,4 +402,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .customization_color{
   text-align-last: center;
     color: red;
+}
+.count_plus{
+  padding-right: 10px;
+    font-size: 20px;
+}
+.count_minus{
+  padding-left: 10px;
+}
+.c_white{
+  color:white;
 }
