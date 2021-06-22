@@ -1,0 +1,70 @@
+.messageBox {
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+}
+.messageBox-top {
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    55% 100%,
+    50% 75%,
+    0% 75%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    55% 100%,
+    50% 75%,
+    0% 75%
+  );
+  margin-left: -25px;
+}
+
+.rightMessageBox {
+  height: 100px;
+  width: 161px;
+  align-self: center;
+  background: #88cc83ab !important;
+  word-break: break-all;
+}
+.navActive {
+  position: relative;
+}
+.notHover {
+  &:hover {
+    border: none !important;
+    cursor: pointer;
+  }
+  &:focus{
+    border: none !important;
+  }
+}
+.navActive:before {
+  content: "";
+  background: #bb8b63;
+  height: 4px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}

@@ -1,0 +1,43 @@
+#footer {
+  background: #bb8b63;
+  padding: 0 0 15px 0;
+  color: #fff;
+  font-size: 14px;
+  .copyright {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .footer-top {
+    background: #694d35;
+    border-top: 1px solid #694d35;
+    border-bottom: 1px solid #694d35;
+    padding: 60px 0 30px 0;
+    .footer-info {
+      margin-bottom: 30px;
+      img {
+        width: 200px;
+      }
+      h3 {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+        padding: 2px 0 2px 0;
+        line-height: 1;
+        font-weight: 700;
+      }
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        font-family: "Gotham Narrow Book", sans-serif;
+        color: #fff;
+      }
+    }
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #ceac90;
+      position: relative;
+      padding-bottom: 12px;
+    }
+  }
+}

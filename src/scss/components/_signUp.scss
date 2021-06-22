@@ -1,0 +1,110 @@
+#Sign-upbox {
+	background: -webkit-linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+	background: -moz-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+	background: -o-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+	background: linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+	min-height: calc(100vh - 0px);
+	overflow: auto;
+	.card {
+		font-family: "Gotham Narrow Book", sans-serif;
+
+
+
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+		margin-bottom: 3em;
+		border-radius: 10px;
+		background-color: #ffff;
+		padding: 1.8rem;
+		// box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+	}
+	label {
+		font-weight: 600;
+		font-size: 14px;
+	}
+}
+.Btn_green {
+	background-color: #bb8b63;
+	color: #fff;
+	padding: 12px 30px;
+	&:hover {
+		color: #ffffff;
+		background-color: #8f6a4b;
+	}
+}
+.Sign-up_FormBox {
+	width: 70%;
+	position: relative;
+
+}
+.Sign-up_ImgBox {
+	position: absolute;
+	width: 175px;
+	height: 175px;
+	right: -40%;
+	top: 10%;
+	text-align: center;
+	padding: 0px;
+}
+.Sign-up_ImgBox_inner {
+	border: 1px solid #dedede;
+	width: 175px;
+	height: 175px;
+	border-radius: 3px;
+	position: relative;
+	img {
+		width: 100%;
+	}
+	input[type="file"] {
+		height: 175px;
+		position: absolute;
+		left: 0px;
+		width: 175px;
+		opacity: 0;
+	}
+}
+@media (max-width: 768px) {
+	#Sign-upbox {
+		padding: 20px;
+		.card {
+			width: 700px;
+		}
+	}
+}
+@media (max-width: 426px) {
+	#Login {
+		padding: 10px;
+	}
+	#Sign-upbox {
+		.card {
+			width: 100%;
+			margin-top: 0em;
+			margin-bottom: 3em;
+			padding: 1rem;
+			background: transparent;
+			border: none;
+			box-shadow: none;
+		}
+	}
+	.Sign-up_ImgBox {
+		position: relative;
+		width: 175px;
+		height: auto;
+		text-align: center;
+		padding: 0px;
+		right: auto;
+		margin: auto;
+	}
+	.Sign-up_ImgBox_inner {
+		background-color: #fff;
+	}
+	.Sign-up_FormBox {
+		width: 100%;
+	}
+}
+.text-end {
+    text-align: right!important;
+}
+

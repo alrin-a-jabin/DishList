@@ -1,0 +1,33 @@
+.btn {
+  min-width: 110px;
+  &:hover {
+  }
+  &-theme-primary {
+    font-family: "Gotham Narrow Book", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 11px 32px;
+    border-radius: 5px;
+    transition: 0.5s;
+    line-height: 1;
+    color: #fff;
+    animation-delay: 0.8s;
+    border: 0;
+    background: #bb8b63;
+  }
+  &-outline {
+    &-secondary {
+      font-size: 12px;
+      font-family: "Gotham Narrow Book", sans-serif !important;
+      border-color: #bb8b63 !important ;
+      color: #bb8b63;
+      font-weight: 600;
+      &:hover {
+        color: #fff;
+        background-color: #bb8b63;
+      }
+    }
+  }
+}

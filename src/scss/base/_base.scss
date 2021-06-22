@@ -1,0 +1,59 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+// @media (min-width: 1200px)
+// {
+//   .container, .container-lg, .container-md, .container-sm, .container-xl {
+//     max-width: 1320px !important;
+// }
+// }
+// .modal_content {
+//   background-color: white;
+//   position: absolute;
+// }
+// .modal {
+//   display: none;
+//   position: fixed;
+//   z-index: 1;
+//   // background-color: rgba(0, 0, 0, 0.25);
+// }
+.form-label {
+  color: #7e91a4;
+  font-size: 14px !important ;
+}
+.form-control {
+  &::placeholder {
+    font-size: 14px !important ;
+  }
+}
+.Select__placeholder{
+  font-size: 14px !important ;
+}
+.required {
+  border-left: 3px solid #bb8b63 !important;
+  // border: 1px solid #999999;
+}
+.specialcharacter-required {
+  color: red;
+  font-size: larger;
+  margin-top: -4px;
+}
+.Toastify__toast-body{
+  font-size: 14px !important ;
+}
+.customAgTextSapling {
+  color: #bb8b63;
+  font-family: "Gotham Narrow Book", sans-serif !important;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.customAgSubmitSapling {
+  background-color: #bb8b63 !important;
+}
+
+.customAgSubmitSapling::hover {
+  background-color: #bb8b63 !important;
+}

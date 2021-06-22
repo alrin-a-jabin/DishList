@@ -1,0 +1,1592 @@
+
+// body {
+// 	font-family: "Open Sans", sans-serif;
+// 	color: #444;
+// }
+// a {
+// 	color: #428bca;
+// 	text-decoration: none;
+// 	text-decoration: none;
+// 	&:hover {
+// 		color: #8f6a4b;
+// 		text-decoration: none;
+// 	}
+// }
+// h1 {
+// 	font-family: "Gotham Narrow Book", sans-serif;
+// }
+// h2 {
+// 	font-family: "Gotham Narrow Book", sans-serif;
+// }
+// h3 {
+// 	font-family: "Gotham Narrow Book", sans-serif;
+// }
+// h4 {
+// 	font-family: "Gotham Narrow Book", sans-serif;
+// }
+// h5 {
+// 	font-family: "Gotham Narrow Book", sans-serif;
+// }
+// h6 {
+// 	font-family: "Gotham Narrow Book", sans-serif;
+// }
+// .font-primary {
+// 	font-family: "Gotham Narrow Book", sans-serif;
+// }
+// // &::-webkit-scrollbar-track {
+// // 	background-color: #f5f5f5;
+// // }
+// // &::-webkit-scrollbar {
+// // 	width: 4px;
+// // 	background-color: #f5f5f5;
+// // }
+// // &::-webkit-scrollbar-thumb {
+// // 	background-color: #333;
+// // }
+// .back-to-top {
+// 	position: fixed;
+// 	visibility: hidden;
+// 	opacity: 0;
+// 	right: 15px;
+// 	bottom: 15px;
+// 	z-index: 99999;
+// 	background: #bb8b63;
+// 	width: 40px;
+// 	height: 40px;
+// 	border-radius: 4px;
+// 	transition: all 0.4s;
+// 	i {
+// 		font-size: 24px;
+// 		color: #fff;
+// 		line-height: 0;
+// 	}
+// 	&:hover {
+// 		background: #8f6a4b;
+// 		color: #fff;
+// 	}
+// }
+// .back-to-top.active {
+// 	visibility: visible;
+// 	opacity: 1;
+// }
+// #Login {
+// 	background: -webkit-linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	background: -moz-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	background: -o-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	background: linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	background-position: center;
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	min-height: calc(100vh - 0px);
+// 	.card {
+// 		font-family: sans-serif;
+// 		width: 450px;
+// 		margin-left: auto;
+// 		margin-right: auto;
+// 		margin-top: 1.5em;
+// 		margin-bottom: 1.5em;
+// 		border-radius: 10px;
+// 		background-color: #ffff;
+// 		padding: 2rem;
+// 		// box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+// 	}
+// 	input[type="text"] {
+// 		padding: 10px 15px;
+// 		margin-top: 8px;
+// 		margin-bottom: 15px;
+// 		border: 1px solid #ccc;
+// 		border-radius: 8px;
+// 		box-sizing: border-box;
+// 	}
+// 	input[type="password"] {
+// 		padding: 10px 15px;
+// 		margin-top: 8px;
+// 		margin-bottom: 15px;
+// 		border: 1px solid #ccc;
+// 		border-radius: 8px;
+// 		box-sizing: border-box;
+// 	}
+// }
+// .Login_card {
+// 	.Company_Logo {
+// 		img {
+// 			width: 250px;
+// 		}
+// 	}
+// }
+// .social-login {
+// 	img {
+// 		width: 24px;
+// 	}
+// 	display: flex;
+// 	justify-content: center;
+// 	gap: 5px;
+// }
+// .title {
+// 	text-align: center;
+// 	font-weight: bold;
+// 	margin: 0;
+// }
+// .btn-text {
+// 	margin: 0;
+// }
+// .fb-btn {
+// 	width: 200px;
+// 	background: #fff;
+// 	border: solid 2px #dedede;
+// 	border-radius: 8px;
+// 	padding: 10px;
+// 	display: flex;
+// 	gap: 5px;
+// 	align-items: center;
+// 	justify-content: center;
+// }
+// .google-btn {
+// 	width: 200px;
+// 	background: #fff;
+// 	border: solid 2px #dedede;
+// 	border-radius: 8px;
+// 	font-weight: bold;
+// 	display: flex;
+// 	padding: 10px 10px;
+// 	align-items: center;
+// 	gap: 5px;
+// 	justify-content: center;
+// }
+// .email-login {
+// 	display: flex;
+// 	flex-direction: column;
+// 	// label {
+// 		// color: rgb(170 166 166);
+// 	// }
+// }
+// input {
+// 	&:focus-visible {
+// 		outline-offset: 0px;
+// 		outline: #bb8b63 auto 1px;
+// 	}
+// }
+// .form-control {
+// 	&:focus {
+// 		color: #212529;
+// 		background-color: #fff;
+// 		border-color: #bb8b63;
+// 		outline: 0;
+// 		// box-shadow: 0 0 0 0.25rem rgb(187 139 99 / 20%);
+// 	}
+// }
+// .cta-btn {
+// 	background: #bb8b63;
+// 	color: white;
+// 	padding: 10px 15px;
+// 	margin-top: 10px;
+// 	margin-bottom: 10px;
+// 	width: 100%;
+// 	border-radius: 10px;
+// 	border: none;
+// }
+// .forget-pass {
+// 	display: block;
+// 	color: #000;
+// 	&:hover {
+// 		color: #bb8b63;
+// 	}
+// }
+// .Remmber_Forgot_box {
+// 	list-style: none;
+// 	padding: 0px;
+// 	margin: 0px;
+// 	display: flex;
+// 	width: 100%;
+// 	font-size: 14px;
+// 	li {
+// 		width: 100%;
+// 		&:last-child {
+// 			text-align: right;
+// 		}
+// 	}
+// }
+// .subtitle {
+// 	margin: 0px;
+// 	text-align: center;
+// 	font-weight: bold;
+// 	padding: 30px 0px;
+// 	a {
+// 		color: #000;
+// 		text-decoration: underline;
+// 		&:hover {
+// 			color: #bb8b63;
+// 		}
+// 	}
+// }
+// .Copyright_box {
+// 	text-align: center;
+// 	font-size: 14px;
+// 	color: #000;
+// 	font-weight: 500;
+// }
+// #Sign-upbox {
+// 	background: -webkit-linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	background: -moz-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	background: -o-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	background: linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+// 	min-height: calc(100vh - 0px);
+// 	overflow: auto;
+// 	.card {
+// 		font-family: sans-serif;
+// 		width: 800px;
+// 		margin-left: auto;
+// 		margin-right: auto;
+// 		margin-top: 1em;
+// 		margin-bottom: 3em;
+// 		border-radius: 10px;
+// 		background-color: #ffff;
+// 		padding: 1.8rem;
+// 		// box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+// 	}
+// 	label {
+// 		font-weight: 600;
+// 		font-size: 14px;
+// 	}
+// }
+// .Btn_green {
+// 	background-color: #bb8b63;
+// 	color: #fff;
+// 	padding: 12px 30px;
+// 	&:hover {
+// 		color: #ffffff;
+// 		background-color: #8f6a4b;
+// 	}
+// }
+// .Sign-up_FormBox {
+// 	width: 70%;
+// 	position: relative;
+// }
+// .Sign-up_ImgBox {
+// 	position: absolute;
+// 	width: 175px;
+// 	height: 175px;
+// 	right: -40%;
+// 	top: 10%;
+// 	text-align: center;
+// 	padding: 0px;
+// }
+// .Sign-up_ImgBox_inner {
+// 	border: 1px solid #dedede;
+// 	width: 175px;
+// 	height: 175px;
+// 	border-radius: 3px;
+// 	position: relative;
+// 	img {
+// 		width: 100%;
+// 	}
+// 	input[type="file"] {
+// 		height: 175px;
+// 		position: absolute;
+// 		left: 0px;
+// 		width: 175px;
+// 		opacity: 0;
+// 	}
+// }
+// #topbar {
+// 	background: #bb8b63;
+// 	border-bottom: 1px solid #bb8b63;
+// 	font-size: 15px;
+// 	height: 40px;
+// 	padding: 0;
+// 	color: #fff;
+// 	font-size: 14px;
+// 	.contact-info {
+// 		a {
+// 			line-height: 0;
+// 			color: #fff;
+// 			transition: 0.3s;
+// 			&:hover {
+// 				color: #8f6a4b;
+// 			}
+// 		}
+// 		i {
+// 			color: #fff;
+// 			line-height: 0;
+// 			margin-right: 5px;
+// 		}
+// 		.phone-icon {
+// 			margin-left: 15px;
+// 		}
+// 	}
+// 	.social-links {
+// 		a {
+// 			color: #fff;
+// 			padding: 6px;
+// 			display: inline-block;
+// 			line-height: 1px;
+// 			transition: 0.3s;
+// 			border: 1px solid #fff;
+// 			border-radius: 50%;
+// 			font-size: 12px;
+// 			&:hover {
+// 				color: #8f6a4b;
+// 				border: 1px solid #8f6a4b;
+// 			}
+// 		}
+// 		a.Login_buttonBox {
+// 			border: none;
+// 			border-radius: 0px;
+// 			margin-left: 50px;
+// 			font-size: 14px;
+// 			padding: 0px;
+// 			i {
+// 				margin-left: 5px;
+// 				font-size: 22px;
+// 				position: relative;
+// 				top: 3px;
+// 			}
+// 		}
+// 	}
+// }
+// #header {
+// 	height: 70px;
+// 	background: #fff;
+// 	z-index: 997;
+// 	// box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
+// 	.logo {
+// 		h1 {
+// 			font-size: 28px;
+// 			margin: 0;
+// 			padding: 10px 0;
+// 			line-height: 1;
+// 			font-weight: 400;
+// 			letter-spacing: 3px;
+// 			text-transform: uppercase;
+// 			a {
+// 				color: #bb8b63;
+// 				text-decoration: none;
+// 				&:hover {
+// 					color: #bb8b63;
+// 					text-decoration: none;
+// 				}
+// 			}
+// 		}
+// 		img {
+// 			padding: 0;
+// 			margin: 0;
+// 			max-height: 40px;
+// 		}
+// 	}
+// }
+// .scrolled-offset {
+// 	margin-top: 70px;
+// }
+// .navbar {
+// 	padding: 0;
+// 	ul {
+// 		margin: 0;
+// 		padding: 0;
+// 		display: flex;
+// 		list-style: none;
+// 		align-items: center;
+// 	}
+// 	li {
+// 		position: relative;
+// 		&:hover {
+// 			>a {
+// 				color: #bb8b63;
+// 			}
+// 		}
+// 	}
+// 	a {
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: space-between;
+// 		padding: 10px 0 10px 30px;
+// 		font-family: "Open Sans", sans-serif;
+// 		font-size: 15px;
+// 		color: #5c768d;
+// 		white-space: nowrap;
+// 		transition: 0.3s;
+// 		i {
+// 			font-size: 12px;
+// 			line-height: 0;
+// 			margin-left: 5px;
+// 		}
+// 		&:hover {
+// 			color: #bb8b63;
+// 		}
+// 	}
+// 	.active {
+// 		color: #bb8b63;
+// 	}
+// 	.dropdown {
+// 		ul {
+// 			display: block;
+// 			position: absolute;
+// 			left: 14px;
+// 			top: 100%;
+// 			margin: 0;
+// 			padding: 10px 0;
+// 			z-index: 99;
+// 			opacity: 0;
+// 			visibility: hidden;
+// 			background: #fff;
+// 			// box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+// 			transition: 0.3s;
+// 			li {
+// 				min-width: 200px;
+// 				&:hover {
+// 					>a {
+// 						color: #428bca;
+// 					}
+// 				}
+// 			}
+// 			a {
+// 				padding: 10px 20px;
+// 				text-transform: none;
+// 				i {
+// 					font-size: 12px;
+// 				}
+// 				&:hover {
+// 					color: #428bca;
+// 				}
+// 			}
+// 			.active {
+// 				&:hover {
+// 					color: #428bca;
+// 				}
+// 			}
+// 		}
+// 		&:hover {
+// 			>ul {
+// 				opacity: 1;
+// 				visibility: visible;
+// 			}
+// 		}
+// 		.dropdown {
+// 			ul {
+// 				top: 0;
+// 				left: calc(100% - 30px);
+// 				visibility: hidden;
+// 			}
+// 			&:hover {
+// 				>ul {
+// 					opacity: 1;
+// 					top: 0;
+// 					left: 100%;
+// 					visibility: visible;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// .mobile-nav-toggle {
+// 	color: #1f3548;
+// 	font-size: 28px;
+// 	cursor: pointer;
+// 	display: none;
+// 	line-height: 0;
+// 	transition: 0.5s;
+// }
+// .mobile-nav-toggle.bi-x {
+// 	color: #fff;
+// }
+// .navbar-mobile {
+// 	position: fixed;
+// 	overflow: hidden;
+// 	top: 0;
+// 	right: 0;
+// 	left: 0;
+// 	bottom: 0;
+// 	// background: rgba(31, 53, 72, 0.9);
+// 	transition: 0.3s;
+// 	z-index: 998;
+// 	.mobile-nav-toggle {
+// 		position: absolute;
+// 		top: 15px;
+// 		right: 15px;
+// 	}
+// 	ul {
+// 		display: block;
+// 		position: absolute;
+// 		top: 55px;
+// 		right: 15px;
+// 		bottom: 15px;
+// 		left: 15px;
+// 		padding: 10px 0;
+// 		background-color: #fff;
+// 		overflow-y: auto;
+// 		transition: 0.3s;
+// 	}
+// 	a {
+// 		padding: 10px 20px;
+// 		font-size: 15px;
+// 		color: #1f3548;
+// 		&:hover {
+// 			color: #428bca;
+// 		}
+// 	}
+// 	.active {
+// 		color: #428bca;
+// 	}
+// 	li {
+// 		&:hover {
+// 			>a {
+// 				color: #428bca;
+// 			}
+// 		}
+// 	}
+// 	.getstarted {
+// 		margin: 15px;
+// 	}
+// 	.dropdown {
+// 		ul {
+// 			position: static;
+// 			display: none;
+// 			margin: 10px 20px;
+// 			padding: 10px 0;
+// 			z-index: 99;
+// 			opacity: 1;
+// 			visibility: visible;
+// 			background: #fff;
+// 			// box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+// 			li {
+// 				min-width: 200px;
+// 				&:hover {
+// 					>a {
+// 						color: #428bca;
+// 					}
+// 				}
+// 			}
+// 			a {
+// 				padding: 10px 20px;
+// 				i {
+// 					font-size: 12px;
+// 				}
+// 				&:hover {
+// 					color: #428bca;
+// 				}
+// 			}
+// 			.active {
+// 				&:hover {
+// 					color: #428bca;
+// 				}
+// 			}
+// 		}
+// 		>.dropdown-active {
+// 			display: block;
+// 		}
+// 	}
+// }
+// #hero {
+// 	width: 100%;
+// 	height: calc(100vh - 110px);
+// 	padding: 0;
+// 	overflow: hidden;
+// 	background: #000;
+// 	.carousel-item {
+// 		width: 100%;
+// 		height: calc(100vh - 110px);
+// 		background-size: cover;
+// 		background-position: top right;
+// 		background-repeat: no-repeat;
+// 		overflow: hidden;
+// 		&::before {
+// 			content: '';
+// 			background-color: transparent;
+// 			position: absolute;
+// 			height: 100%;
+// 			width: 100%;
+// 			top: 0;
+// 			right: 0;
+// 			left: 0;
+// 			bottom: 0;
+// 			overflow: hidden;
+// 		}
+// 	}
+// 	.carousel-container {
+// 		display: flex;
+// 		justify-content: center;
+// 		align-items: center;
+// 		position: absolute;
+// 		bottom: 0;
+// 		top: 0;
+// 		left: 0;
+// 		right: 0;
+// 		overflow: hidden;
+// 	}
+// 	.carousel-content {
+// 		text-align: center;
+// 	}
+// 	h2 {
+// 		color: #fff;
+// 		margin-bottom: 30px;
+// 		font-size: 48px;
+// 		font-weight: 900;
+// 	}
+// 	p {
+// 		width: 80%;
+// 		-webkit-animation-delay: 0.4s;
+// 		animation-delay: 0.4s;
+// 		color: #fff;
+// 		margin: auto;
+// 	}
+// 	.carousel-inner {
+// 		.carousel-item {
+// 			transition-property: opacity;
+// 			background-position: center top;
+// 			opacity: 0;
+// 		}
+// 		.active.carousel-item-start {
+// 			opacity: 0;
+// 			left: 0;
+// 			transform: translate3d(0, 0, 0);
+// 		}
+// 		.active.carousel-item-end {
+// 			opacity: 0;
+// 			left: 0;
+// 			transform: translate3d(0, 0, 0);
+// 		}
+// 		.active {
+// 			opacity: 1;
+// 			transition: 0.5s;
+// 		}
+// 		.carousel-item-next.carousel-item-start {
+// 			opacity: 1;
+// 			transition: 0.5s;
+// 		}
+// 		.carousel-item-prev.carousel-item-end {
+// 			opacity: 1;
+// 			transition: 0.5s;
+// 		}
+// 		.carousel-item-next {
+// 			left: 0;
+// 			transform: translate3d(0, 0, 0);
+// 		}
+// 		.carousel-item-prev {
+// 			left: 0;
+// 			transform: translate3d(0, 0, 0);
+// 		}
+// 	}
+// 	.carousel-control-prev {
+// 		width: 10%;
+// 	}
+// 	.carousel-control-next {
+// 		width: 10%;
+// 	}
+// 	.carousel-control-next-icon {
+// 		background: none;
+// 		font-size: 48px;
+// 		line-height: 1;
+// 		width: auto;
+// 		height: auto;
+// 	}
+// 	.carousel-control-prev-icon {
+// 		background: none;
+// 		font-size: 48px;
+// 		line-height: 1;
+// 		width: auto;
+// 		height: auto;
+// 	}
+// 	.carousel-indicators {
+// 		li {
+// 			cursor: pointer;
+// 			display: none;
+// 		}
+// 	}
+// 	.btn-get-started {
+// 		font-family: "Gotham Narrow Book", sans-serif;
+// 		font-weight: 500;
+// 		font-size: 14px;
+// 		letter-spacing: 1px;
+// 		display: inline-block;
+// 		padding: 12px 32px;
+// 		border-radius: 5px;
+// 		transition: 0.5s;
+// 		line-height: 1;
+// 		margin: 10px;
+// 		color: #fff;
+// 		-webkit-animation-delay: 0.8s;
+// 		animation-delay: 0.8s;
+// 		border: 0;
+// 		background: #bb8b63;
+// 		&:hover {
+// 			background: #8f6a4b;
+// 		}
+// 	}
+// }
+// section {
+// 	padding: 60px 0;
+// 	overflow: hidden;
+// }
+// .section-bg {
+// 	background-color: #f5f9fc;
+// }
+// .section-title {
+// 	padding-bottom: 30px;
+// 	h2 {
+// 		font-size: 32px;
+// 		font-weight: 600;
+// 		margin-bottom: 20px;
+// 		padding-bottom: 0;
+// 		color: #bb8b63;
+// 	}
+// 	h3 {
+// 		font-size: 26px;
+// 		font-weight: 600;
+// 		margin-bottom: 20px;
+// 		padding-bottom: 0;
+// 	}
+// 	h5 {
+// 		font-size: 18px;
+// 		font-weight: 600;
+// 		margin-bottom: 20px;
+// 		padding-bottom: 0;
+// 	}
+// 	p {
+// 		margin-bottom: 0;
+// 	}
+// }
+// .section-title_inner {
+// 	position: relative;
+// }
+// .breadcrumbs {
+// 	padding: 15px 0;
+// 	background-color: #f5f9fc;
+// 	min-height: 40px;
+// 	h2 {
+// 		font-size: 24px;
+// 		font-weight: 300;
+// 	}
+// 	ol {
+// 		display: flex;
+// 		flex-wrap: wrap;
+// 		list-style: none;
+// 		padding: 0;
+// 		margin: 0;
+// 		font-size: 14px;
+// 		li+li {
+// 			padding-left: 10px;
+// 			&::before {
+// 				display: inline-block;
+// 				padding-right: 10px;
+// 				color: #6c757d;
+// 				content: "/";
+// 			}
+// 		}
+// 	}
+// }
+// .Give_Today {
+// 	padding: 60px;
+// }
+// .Treecounts {
+// 	// background-image: url("/assets/img/tree_count.jpg");
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	padding: 120px 0;
+// }
+// .Treecounts_inner {
+// 	text-align: center;
+// 	color: #fff;
+// 	font-size: 26px;
+// 	h4 {
+// 		font-size: 2rem;
+// 		font-weight: 700;
+// 	}
+// }
+// #Projects {
+// 	.Projects_Details {
+// 		padding: 20px;
+// 	}
+// 	.View_more {
+// 		text-align: center;
+// 		font-weight: 700;
+// 		padding: 15px;
+// 		a {
+// 			color: #bb8b63;
+// 			&:hover {
+// 				color: #8f6a4b;
+// 			}
+// 		}
+// 	}
+// }
+// .Projects_Details_inner {
+// 	padding: 30px;
+// 	background: #bb8b63;
+// 	color: #fff;
+// 	text-align: right;
+// 	border-radius: 3px;
+// 	cursor: pointer;
+// 	position: relative;
+// 	&::before {
+// 		content: '';
+// 		// background-image: url("/assets/img/leaf.png");
+// 		height: 100%;
+// 		width: 100%;
+// 		position: absolute;
+// 		left: 0px;
+// 		top: 0px;
+// 		background-size: cover;
+// 		opacity: .4;
+// 	}
+// 	&:hover {
+// 		background: #8f6a4b;
+// 	}
+// 	h4 {
+// 		font-weight: 700;
+// 	}
+// }
+// .location_view {
+// 	min-height: 120px;
+// }
+// #footer {
+// 	background: #bb8b63;
+// 	padding: 0 0 15px 0;
+// 	color: #fff;
+// 	font-size: 14px;
+// 	.footer-top {
+// 		background: #694d35;
+// 		border-top: 1px solid #694d35;
+// 		border-bottom: 1px solid #694d35;
+// 		padding: 60px 0 30px 0;
+// 		.footer-info {
+// 			margin-bottom: 30px;
+// 			img {
+// 				width: 200px;
+// 			}
+// 			h3 {
+// 				font-size: 24px;
+// 				margin: 0 0 20px 0;
+// 				padding: 2px 0 2px 0;
+// 				line-height: 1;
+// 				font-weight: 700;
+// 			}
+// 			p {
+// 				font-size: 14px;
+// 				line-height: 24px;
+// 				margin-bottom: 0;
+// 				font-family: "Gotham Narrow Book", sans-serif;
+// 				color: #fff;
+// 			}
+// 		}
+// 		h4 {
+// 			font-size: 16px;
+// 			font-weight: 600;
+// 			color: #ceac90;
+// 			position: relative;
+// 			padding-bottom: 12px;
+// 		}
+// 	}
+// 	.copyright {
+// 		text-align: center;
+// 		padding-top: 15px;
+// 	}
+// }
+// #MyProfile {
+// 	background: #f8f8f8;
+// }
+// .Myprofile_add {
+// 	margin-bottom: 20px;
+// }
+// .Myprofile_add_inner {
+// 	width: 150px;
+// 	height: 150px;
+// 	background: #bb8b63;
+// 	margin: auto;
+// 	border-radius: 50%;
+// 	position: relative;
+// 	img {
+// 		width: 100%;
+// 	}
+// }
+// .Myprofile_editer {
+// 	position: absolute;
+// 	top: 0px;
+// 	right: 0px;
+// }
+// .My_Pro_icon {
+// 	padding: 25px;
+// }
+// .Recevied_trees_date {
+// 	list-style: none;
+// 	padding: 0px;
+// 	margin: 0px;
+// 	li {
+// 		padding: 10px;
+// 		&:first-child {
+// 			width: 120px;
+// 		}
+// 		img {
+// 			width: 100%;
+// 		}
+// 	}
+// 	h5 {
+// 		margin: 0px;
+// 		font-weight: 600;
+// 	}
+// }
+// .referred_Card {
+// 	text-align: center;
+// 	border: none;
+// 	background: transparent;
+// 	img {
+// 		margin-bottom: 10px;
+// 	}
+// 	p {
+// 		line-height: 30px;
+// 	}
+// }
+// .Create_ProjectBtn {
+// 	border-radius: 30px;
+// 	background: #bb8b63;
+// 	color: #fff;
+// 	&:hover {
+// 		background: #8f6a4b;
+// 		color: #fff;
+// 	}
+// }
+// #ViewProject {
+// 	.Create_ProjectBtn {
+// 		position: absolute;
+// 		right: 0px;
+// 		top: 0px;
+// 	}
+// }
+// .ViewProjectCard {
+// 	table.table {
+// 		margin: 0px;
+// 		tr {
+// 			th {
+// 				background: #bb8b63;
+// 				color: #fff;
+// 			}
+// 		}
+// 	}
+// }
+// .Action_btn {
+// 	border-radius: 50%;
+// 	background: #bb8b63;
+// 	color: #fff;
+// 	border: none;
+// 	padding: 2px;
+// 	height: 26px;
+// 	width: 27px;
+// 	font-size: 14px;
+// 	&:hover {
+// 		background: #8f6a4b;
+// 	}
+// }
+// .planted_ImgBox {
+// 	ul {
+// 		list-style: none;
+// 		padding: 0px;
+// 		margin: 0px;
+// 		li {
+// 			padding: 10px;
+// 			img {
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+// }
+// .planted_ImgBox_view {
+// 	height: 160px;
+// 	border-radius: 5px;
+// 	overflow: hidden;
+// 	position: relative;
+// 	button.Action_btn {
+// 		position: absolute;
+// 		bottom: 5px;
+// 		right: 5px;
+// 	}
+// }
+// .Top_Per_Volunters {
+// 	h6 {
+// 		font-weight: 600;
+// 		margin-bottom: 15px;
+// 	}
+// }
+// .Top_Volunter_Details {
+// 	padding: 10px;
+// }
+// .Top_Volunter_Details_inner {
+// 	background: #bb8b63;
+// 	padding: 15px;
+// 	color: #fff;
+// 	border-radius: 5px;
+// 	position: relative;
+// 	&::before {
+// 		content: '';
+// 		// background-image: url("assets/img/leaf.png");
+// 		height: 100%;
+// 		width: 100%;
+// 		position: absolute;
+// 		right: 0px;
+// 		top: 0px;
+// 		background-size: cover;
+// 		opacity: .4;
+// 		-webkit-transform: scaleX(-1);
+// 		transform: scaleX(-1);
+// 	}
+// 	ul {
+// 		list-style: none;
+// 		padding: 0px;
+// 		margin: 0px;
+// 		margin-bottom: 10px;
+// 		display: flex;
+// 		position: relative;
+// 		li {
+// 			width: 100%;
+// 			&:first-child {
+// 				width: 170px;
+// 			}
+// 			&:last-child {
+// 				padding: 15px 0px;
+// 			}
+// 		}
+// 	}
+// 	h5 {
+// 		font-weight: 600;
+// 		margin-bottom: 2px;
+// 	}
+// 	p {
+// 		margin: 0px;
+// 	}
+// 	h4 {
+// 		font-weight: 600;
+// 		margin: 0px;
+// 		position: relative;
+// 	}
+// }
+// .Top_Volunter_img {
+// 	width: 90px;
+// 	height: 90px;
+// 	overflow: hidden;
+// 	border-radius: 50%;
+// 	img {
+// 		width: 100%;
+// 	}
+// }
+// #myTotalTab {
+// 	border: none;
+// 	margin-bottom: 18PX;
+// }
+// #myTotalTab.nav-tabs {
+// 	.nav-link {
+// 		font-weight: 500;
+// 		border: none;
+// 		&:focus {
+// 			border-color: #fff;
+// 		}
+// 		&:hover {
+// 			border-color: #fff;
+// 		}
+// 	}
+// 	.nav-link.active {
+// 		border: none;
+// 		position: relative;
+// 		&::before {
+// 			content: '';
+// 			background: #bb8b63;
+// 			height: 4px;
+// 			position: absolute;
+// 			right: 15px;
+// 			left: 15px;
+// 			bottom: 0px;
+// 		}
+// 	}
+// }
+// .All_Graph_box {
+// 	img {
+// 		width: 100%;
+// 	}
+// }
+// .kerala_Map {
+// 	height: 500px;
+// 	text-align: center;
+// 	img {
+// 		height: 100%;
+// 	}
+// 	iframe {
+// 		width: 100%;
+// 		height: 100%;
+// 		margin-bottom: -7px;
+// 	}
+// }
+// .Procurement_details_box {
+// 	ul {
+// 		list-style: none;
+// 		padding: 0px;
+// 		margin: 0px;
+// 		display: flex;
+// 		li {
+// 			padding: 5px;
+// 			&:first-child {
+// 				width: 120px;
+// 			}
+// 		}
+// 	}
+// }
+// .DistributionTotalbox {
+// 	h4 {
+// 		color: #bb8b63;
+// 		margin: 0px;
+// 		font-size: 18px;
+// 		font-weight: 600;
+// 	}
+// }
+// .My_Plantings_PhotoViewBox_head {
+// 	position: relative;
+// }
+// .Select_Plantings_pinBox {
+// 	position: absolute;
+// 	top: 0px;
+// 	right: 0px;
+// }
+// .My_Plantings_PhotoViewBox_Body {
+// 	ul {
+// 		list-style: none;
+// 		padding: 0px;
+// 		margin: 0px;
+// 		display: flex;
+// 		flex-wrap: wrap;
+// 		li {
+// 			padding: 9px;
+// 			margin-bottom: 5px;
+// 		}
+// 	}
+// }
+// .My_Plantings_PhotoView {
+// 	border-radius: 5px;
+// 	width: 241px;
+// 	height: 165px;
+// 	overflow: hidden;
+// 	position: relative;
+// 	.carousel-item {
+// 		height: 165px;
+// 	}
+// }
+// .My_Plantings_PhotoView_count {
+// 	position: absolute;
+// 	top: 4px;
+// 	left: 10px;
+// 	color: #fff;
+// 	z-index: 10;
+// }
+// .ShareWith_box {
+// 	position: relative;
+// 	background: #fff;
+// 	border-radius: 30px;
+// 	border: 1px solid #ddd;
+// 	padding: 10px 15px;
+// 	cursor: pointer;
+// 	&:hover {
+// 		background-color: #3f51b5;
+// 		color: #fff;
+// 		i.bi {
+// 			color: #fff;
+// 		}
+// 	}
+// 	i.bi {
+// 		position: absolute;
+// 		top: 0px;
+// 		right: 7px;
+// 		font-size: 27px;
+// 		color: #3f51b5;
+// 	}
+// }
+// @media screen and (max-width: 768px) {
+// 	[data-aos-delay] {
+// 		transition-delay: 0 !important;
+// 	}
+// }
+// @media (max-width: 768px) {
+// 	#Login {
+// 		padding: 20px;
+// 		.card {
+// 			margin-top: 1em;
+// 			margin-bottom: 1em;
+// 		}
+// 	}
+// 	#Sign-upbox {
+// 		padding: 20px;
+// 		.card {
+// 			width: 700px;
+// 		}
+// 	}
+// 	#hero {
+// 		h2 {
+// 			font-size: 28px;
+// 		}
+// 	}
+// 	.breadcrumbs {
+// 		.d-flex {
+// 			display: block !important;
+// 		}
+// 		ol {
+// 			display: block;
+// 			li {
+// 				display: inline-block;
+// 			}
+// 		}
+// 	}
+// }
+// @media (max-width: 426px) {
+// 	#Login {
+// 		padding: 10px;
+// 		padding: 10px;
+// 		.card {
+// 			width: 100%;
+// 			margin-top: 0em;
+// 			margin-bottom: 3em;
+// 			padding: 1rem;
+// 			background: transparent;
+// 			border: none;
+// 			box-shadow: none;
+// 		}
+// 	}
+// 	#Sign-upbox {
+// 		.card {
+// 			width: 100%;
+// 			margin-top: 0em;
+// 			margin-bottom: 3em;
+// 			padding: 1rem;
+// 			background: transparent;
+// 			border: none;
+// 			box-shadow: none;
+// 		}
+// 	}
+// 	.Sign-up_ImgBox {
+// 		position: relative;
+// 		width: 175px;
+// 		height: auto;
+// 		text-align: center;
+// 		padding: 0px;
+// 		right: auto;
+// 		margin: auto;
+// 	}
+// 	.Sign-up_ImgBox_inner {
+// 		background-color: #fff;
+// 	}
+// 	.Sign-up_FormBox {
+// 		width: 100%;
+// 	}
+// 	.Give_Today {
+// 		padding: 60px 30px;
+// 	}
+// }
+// @media (max-width: 1366px) {
+// 	.navbar {
+// 		.dropdown {
+// 			.dropdown {
+// 				ul {
+// 					left: -90%;
+// 				}
+// 				&:hover {
+// 					>ul {
+// 						left: -100%;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// @media (max-width: 991px) {
+// 	.mobile-nav-toggle {
+// 		display: block;
+// 	}
+// 	.navbar {
+// 		ul {
+// 			display: none;
+// 		}
+// 	}
+// }
+// @media (max-width: 992px) {
+// 	#hero {
+// 		height: calc(100vh - 70px);
+// 		.carousel-item {
+// 			height: calc(100vh - 70px);
+// 		}
+// 		.carousel-content.container {
+// 			padding: 0 50px;
+// 		}
+// 	}
+// }
+// @media (max-height: 500px) {
+// 	#hero {
+// 		height: 120vh;
+// 		.carousel-item {
+// 			height: 120vh;
+// 		}
+// 	}
+// }
+// @media (min-width: 1024px) {
+// 	#hero {
+// 		p {
+// 			width: 60%;
+// 		}
+// 		.carousel-control-prev {
+// 			width: 5%;
+// 		}
+// 		.carousel-control-next {
+// 			width: 5%;
+// 		}
+// 	}
+// }
+
+
+/* Customize the label (the table-checkbox-label-container) */
+/* Hide the browser's default checkbox */
+/* Create a custom checkbox */
+/* On mouse-over, add a grey background color */
+/* When the checkbox is checked, add a blue background */
+/* Create the checkmark/indicator (hidden when not checked) */
+/* Show the checkmark when checked */
+/* Style the checkmark/indicator */
+.app-table-wrapper {
+	>.app-table-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		margin-bottom: 5px;
+		>.app-table-lables {
+			display: flex;
+			justify-content: flex-start;
+			color: #231f20;
+			font-size: 14px;
+			line-height: 30px;
+			>.app-table-title {
+				text-transform: capitalize;
+				font-family: "Gotham Medium";
+			}
+			>.app-table-total-count {
+				margin-right: 20px;
+				font-family: "Gotham Medium";
+				&::before {
+					content: "|";
+					margin: 0px 10px;
+				}
+			}
+		}
+		>.app-table-actions {
+			.form-group {
+				margin-bottom: 0px;
+				>.form-control {
+					height: 30px;
+					line-height: 30px;
+					font-size: 12px;
+				}
+			}
+			.form-group.search-form-group {
+				position: relative;
+				>.form-control {
+					padding-right: 25px;
+				}
+				.search-wrapper {
+					position: absolute;
+					top: 5px;
+					right: 10px;
+					color: #b3b3b3;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	>.table-responsive {
+		>.app-table {
+			border: 1px solid #b3b3b3;
+			margin-bottom: 5px !important;
+			th {
+				padding: 0px 20px;
+				background-color: #58595b;
+				height: 30px;
+				color: #ffffff;
+				font-weight: 600;
+				font-size: 12px;
+				border: none !important;
+				vertical-align: middle;
+			}
+			td {
+				padding: 0px 20px;
+				height: 50px;
+				background-color: #ffffff;
+				font-size: 12px;
+				vertical-align: middle;
+			}
+			>thead {
+				>tr {
+					>th {
+						padding: 0px 20px;
+						background-color: #58595b;
+						height: 30px;
+						color: #ffffff;
+						font-weight: 600;
+						font-size: 12px;
+						border: none !important;
+						vertical-align: middle;
+					}
+				}
+			}
+			>tbody {
+				>tr {
+					>td {
+						padding: 0px 20px;
+						height: 50px;
+						background-color: #ffffff;
+						font-size: 12px;
+						vertical-align: middle;
+					}
+					&:hover {
+						>td {
+							background-color: #ddecf3 !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	>.app-table-options {
+		display: flex;
+		justify-content: space-between;
+		>.option-item {
+			display: flex;
+			align-items: center;
+			>.records-per-page-wrapper {
+				display: flex;
+				align-items: center;
+				.form-group {
+					margin-bottom: 0px;
+				}
+				select.records-per-page {
+					height: 30px;
+					line-height: 30px;
+					width: 50px;
+					padding: 0px 5px;
+					text-align: center;
+				}
+				p.records-per-page {
+					margin-bottom: 0px;
+					font-size: 12px;
+					margin-left: 10px;
+				}
+			}
+			>.page-info {
+				margin-bottom: 0px;
+				font-size: 12px;
+			}
+			.pagination {
+				margin-left: 50px;
+				margin-bottom: 0px;
+				>.page-item.disabled {
+					>.page-link {
+						color: #b3b3b3 !important;
+					}
+				}
+				>.page-item.active {
+					>.page-link {
+						color: #fff !important;
+						background-color: #b3b3b3;
+					}
+				}
+				>.page-item {
+					>.page-link {
+						font-size: 12px;
+						padding: 5px 10px;
+						height: 30px;
+						color: #231f20 !important;
+					}
+				}
+			}
+		}
+	}
+}
+.table-checkbox-label-container {
+	display: block;
+	position: relative;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+		&:checked {
+			~ {
+				.checkmark {
+					background-color: #0085CA;
+					&:after {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	&:hover {
+		input {
+			~ {
+				.checkmark {
+					background-color: #ccc;
+				}
+			}
+		}
+	}
+	input[type="checkbox"] {
+		&:indeterminate {
+			~ {
+				.checkmark {
+					background-color: #0085CA;
+				}
+			}
+		}
+	}
+	.checkmark {
+		&:after {
+			left: 6px;
+			top: 1px;
+			width: 5px;
+			height: 12px;
+			border: solid white;
+			border-width: 0 2px 2px 0;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+	}
+	>input[type="checkbox"] {
+		&:indeterminate {
+			+ {
+				.checkmark {
+					&::after {
+						display: block;
+						left: 4px !important;
+						top: 7px !important;
+						width: 9px !important;
+						height: 12px !important;
+						border: solid white !important;
+						border-width: 2px 0px 0px 0 !important;
+						-webkit-transform: rotate(0deg) !important;
+						-ms-transform: rotate(0deg) !important;
+						transform: rotate(0deg) !important;
+					}
+				}
+			}
+		}
+	}
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	background-color: #eee;
+	border-radius: 2px;
+	&:after {
+		content: "";
+		position: absolute;
+		display: none;
+	}
+}

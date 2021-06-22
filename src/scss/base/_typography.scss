@@ -1,0 +1,84 @@
+body {
+  font-family: "Gotham Narrow Book", sans-serif !important;
+  color: #444;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  text-size-adjust: 100%;
+}
+
+.secondary-heading-normal {
+  font-family: "Gotham Narrow Book", sans-serif !important;
+  font-size: 16px;
+}
+
+.table-header-label {
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  letter-spacing: 0.6px;
+  margin-right: 10px !important;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8f6a4b;
+  text-decoration: none;
+}
+
+.text-theme {
+  color: #8f6a4b !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-primary {
+  font-family: "Gotham Narrow Bold", sans-serif !important;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.heading-secondary {
+  font-family: "Gotham Narrow Book", sans-serif !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 24px;
+  padding-bottom: 0;
+  letter-spacing: 0.6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+}
+.Select__control--menu-is-open {
+  z-index: 1000 !important;
+}
+.heading-tertiary {
+  font-family: "Gotham Narrow Book", sans-serif !important;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 24px;
+  letter-spacing: 0.6px;
+  color: #7e91a4;
+}
+.text-black{
+  color:#000 !important;
+}

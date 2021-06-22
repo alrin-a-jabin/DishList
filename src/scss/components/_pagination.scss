@@ -1,0 +1,14 @@
+.pagination {
+  .page-item {
+    &.active {
+      .page-link {
+        background-color: #bb8b63 !important;
+        border-color: #bb8b63 !important;
+        color: #fff !important;
+      }
+    }
+    .page-link {
+      color: #bb8b63 !important;
+    }
+  }
+}

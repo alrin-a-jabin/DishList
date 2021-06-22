@@ -1,0 +1,184 @@
+#Login {
+	background: -webkit-linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+	background: -moz-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+	background: -o-linear-gradient(180deg, #ffe3cd 0%, #ffb8ab 100%);
+	background: linear-gradient( 180deg, #ffe3cd 0%, #ffb8ab 100%);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: calc(100vh - 0px);
+	.card {
+		font-family: sans-serif;
+		width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+		border-radius: 10px;
+		background-color: #ffff;
+		padding: 2rem;
+		box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+	}
+	input[type="text"] {
+		height: 56px;
+		padding: 10px 15px;
+		margin-top: 8px;
+		margin-bottom: 15px;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		box-sizing: border-box;
+	}
+	input[type="password"] {
+		height: 56px;
+		padding: 10px 15px;
+		margin-top: 8px;
+		margin-bottom: 15px;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		box-sizing: border-box;
+	}
+}
+.Login_card {
+	.Company_Logo {
+		img {
+			width: 250px;
+		}
+	}
+}
+.social-login {
+	img {
+		width: 24px;
+	}
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+a {
+	text-decoration: none;
+}
+.title {
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+}
+.btn-text {
+	margin: 0;
+}
+.fb-btn {
+	width: 200px;
+	background: #fff;
+	border: solid 2px #dedede;
+	border-radius: 8px;
+	padding: 10px;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	justify-content: center;
+}
+.google-btn {
+	width: 200px;
+	background: #fff;
+	border: solid 2px #dedede;
+	border-radius: 8px;
+	font-weight: bold;
+	display: flex;
+	padding: 10px 10px;
+	align-items: center;
+	gap: 5px;
+	justify-content: center;
+}
+.email-login {
+	display: flex;
+	flex-direction: column;
+	label {
+		// color: rgb(170 166 166);
+	}
+}
+input {
+	&:focus-visible {
+		outline-offset: 0px;
+		outline: #bb8b63 auto 1px;
+	}
+}
+.form-control {
+	&:focus {
+		color: #212529;
+		background-color: #fff;
+		border-color: #bb8b63;
+		outline: 0;
+		// box-shadow: 0 0 0 0.25rem rgb(187 139 99 / 20%);
+	}
+}
+.cta-btn {
+	background: #bb8b63;
+	color: white;
+	padding: 10px 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+}
+.forget-pass {
+	display: block;
+	color: #000;
+	&:hover {
+		color: #bb8b63;
+	}
+}
+.Remmber_Forgot_box {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	width: 100%;
+	font-size: 14px;
+	li {
+		width: 100%;
+		&:last-child {
+			text-align: right;
+		}
+	}
+}
+.subtitle {
+	margin: 0px;
+	text-align: center;
+	font-weight: bold;
+	padding: 30px 0px;
+	a {
+		color: #bb8b63;
+		text-decoration: none;
+		&:hover {
+			color: #bb8b63;
+		}
+	}
+}
+.Copyright_box {
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+}
+@media (max-width: 768px) {
+	#Login {
+		padding: 20px;
+		.card {
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+	}
+}
+@media (max-width: 426px) {
+	#Login {
+		padding: 10px;
+		.card {
+			width: 100%;
+			margin-top: 0em;
+			margin-bottom: 3em;
+			padding: 1rem;
+			background: transparent;
+			border: none;
+			box-shadow: none;
+		}
+	}
+}
